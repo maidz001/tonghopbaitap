@@ -3,49 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sidebar Scroll Notification</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .sidebar {
+            width: 300px;
+            height: 100vh;
+            background-color: #f4f4f4;
+            overflow-y: auto;
+            padding: 20px;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-<style>
-    td{
-        border: solid;
-    }
-</style>
 <body>
-    <table>
-        <tr>
+    <div class="sidebar" id="sidebar">
+        <table>
+            <tr>
+                <td>buoi 1 </td>
+            </tr>
+            <tr>
+                <td>buoi 2 </td>
+            </tr>
+            <tr>
+                <td>buoi 3 </td>
+            </tr>
+            <tr>
+                <td>buoi 4 </td>
+            </tr>
+            <tr>
+                <td>buoi 5 </td>
+            </tr>
+            <tr>
+                <td>buoi 6 </td>
+            </tr>
+            <tr>
+                <td>buoi 7 </td>
+            </tr>
+            <tr>
+                <td>buoi 8 </td>
+            </tr>
+            <tr>
+                <td>buoi 9 </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://maidz001.github.io/baitapbuoi1/?classId=25b1a731-1c5f-4f10-a202-fea8f7379012&assignmentId=72e46a7b-bfdc-48cf-8290-9095fb1aaf7b&submissionId=89e2593c-af02-88f2-bea6-e8847aeb1b35">bai 1.1</a>
+                    <a href="https://daihocthudo.sharepoint.com/:u:/s/Thitkweb_CNTT2024N1/EZ_CvTgE2aBAnB-h5a81l78BisJQBykMfkzpSEvgwBPVpw">bai 1.2</a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://maidz001.github.io/buoi4/">bai buoi 2</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://maidz001.github.io/buoi22/">bai buoi 3</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://maidz001.github.io/lab3/?classId=25b1a731-1c5f-4f10-a202-fea8f7379012&assignmentId=0b8f9ef0-e533-48f6-8e1c-6e3fe2d9438d&submissionId=e6027acc-be6d-3358-2afc-9559da0ff1ad">bai buoi 4</a></td>
+            </tr>
+            <tr>
+                <td>
+                    <a>bai 4.1</a>
+                    <a href="https://maidz001.github.io/baibuoi4/?classId=25b1a731-1c5f-4f10-a202-fea8f7379012&assignmentId=0b8f9ef0-e533-48f6-8e1c-6e3fe2d9438d&submissionId=e6027acc-be6d-3358-2afc-9559da0ff1ad">bai 4.2</a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://maidz001.github.io/baibuoi8/?classId=25b1a731-1c5f-4f10-a202-fea8f7379012&assignmentId=5f80b396-c5a1-4eb6-b6dd-8c876c9cf2f4&submissionId=95881ca7-894b-bdf0-8248-1ffbb3f7fa74">bai buoi 6</a></td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://maidz001.github.io/buoi7/?classId=25b1a731-1c5f-4f10-a202-fea8f7379012&assignmentId=9197ced4-1d98-4e4c-bfb4-f0579e4487cb&submissionId=149dac07-af8c-8a87-69e1-ef6916d22cc9">bai buoi 7.1</a>
+                    <a href="https://maidz001.github.io/bai2buoi7/">bai buoi 7.2</a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://maidz001.github.io/baibuoi7/?classId=25b1a731-1c5f-4f10-a202-fea8f7379012&assignmentId=fd69d488-223e-4fa8-87b2-978d1c20e44e&submissionId=a6968526-52a6-0c9a-4ef1-91516a1f54a5">bai buoi 8</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://maidz001.github.io/buoi99/">buoi 9 </a></td>
+            </tr>
+        </table>
+    </div>
 
-        <tr>
-            <td>buoi 1 </td>
-            <td>buoi 2 </td>
-            <td>buoi 3 </td>
-            <td>buoi 4 </td>
-            <td>buoi 5 </td>
-            <td>buoi 6 </td>
-            <td>buoi 7 </td>
-            <td>buoi 8 </td>
-            <td>buoi 9</td>
-        </tr>
-        <tr>
-            <td><a href="https://maidz001.github.io/baitapbuoi1/?classId=25b1a731-1c5f-4f10-a202-fea8f7379012&assignmentId=72e46a7b-bfdc-48cf-8290-9095fb1aaf7b&submissionId=89e2593c-af02-88f2-bea6-e8847aeb1b35">bai 1.1</a> <a href="https://daihocthudo.sharepoint.com/:u:/s/Thitkweb_CNTT2024N1/EZ_CvTgE2aBAnB-h5a81l78BisJQBykMfkzpSEvgwBPVpw">bai 1.2</a></td> 
+    <script>
+        const sidebar = document.getElementById('sidebar');
+        let hasAlerted = false;
 
-            <td><a href="https://maidz001.github.io/buoi4/">bai buoi 2</a></td>
-
- <td><a href="https://maidz001.github.io/buoi22/">bai buoi 3</a></td><td><a href="https://maidz001.github.io/lab3/?classId=25b1a731-1c5f-4f10-a202-fea8f7379012&assignmentId=0b8f9ef0-e533-48f6-8e1c-6e3fe2d9438d&submissionId=e6027acc-be6d-3358-2afc-9559da0ff1ad">bai buoi 4</a></td>
-            <td>bai4.1</a><a href="https://maidz001.github.io/baibuoi4/?classId=25b1a731-1c5f-4f10-a202-fea8f7379012&assignmentId=0b8f9ef0-e533-48f6-8e1c-6e3fe2d9438d&submissionId=e6027acc-be6d-3358-2afc-9559da0ff1ad">bai 4.2</a></td>
-        <td><a href="https://maidz001.github.io/baibuoi8/?classId=25b1a731-1c5f-4f10-a202-fea8f7379012&assignmentId=5f80b396-c5a1-4eb6-b6dd-8c876c9cf2f4&submissionId=95881ca7-894b-bdf0-8248-1ffbb3f7fa74">bai buoi 6</a></td>><td><a href="https://maidz001.github.io/buoi7/?classId=25b1a731-1c5f-4f10-a202-fea8f7379012&assignmentId=9197ced4-1d98-4e4c-bfb4-f0579e4487cb&submissionId=149dac07-af8c-8a87-69e1-ef6916d22cc9">bai buoi 7.1</a><a href="https://maidz001.github.io/bai2buoi7/">bai buoi 7.2</a></td><td><a href="https://maidz001.github.io/baibuoi7/?classId=25b1a731-1c5f-4f10-a202-fea8f7379012&assignmentId=fd69d488-223e-4fa8-87b2-978d1c20e44e&submissionId=a6968526-52a6-0c9a-4ef1-91516a1f54a5">bai buoi 8</a></td>
-        <td><a href="https://maidz001.github.io/buoi99/">buoi 9 </a></td></tr>
-
-
-
-            
-            
-           
-            
-                
-            
-            
-            
-        </tr>
-    </table>
+        sidebar.addEventListener('scroll', function() {
+            if (sidebar.scrollTop + sidebar.clientHeight >= sidebar.scrollHeight && !hasAlerted) {
+                alert('Đã hết trang!');
+                hasAlerted = true;
+            }
+        });
+    </script>
 </body>
 </html>
